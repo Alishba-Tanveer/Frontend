@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-form {
+    background-color: #695BCC;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.registration-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 30%;
+}
+
+input, select, textarea, table {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+    margin-top: 10px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    color: black;
+}
+
+p {
+    font-size: 12px;
+    color: #ddd;
+    margin: 0 0 10px 0;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+    margin: 1%;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    resize: none;
+}
+
+div {
+    margin-top: 10px;
+    display: flex;
+}
