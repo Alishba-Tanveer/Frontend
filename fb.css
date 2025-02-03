@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url(assets/pictures/image3.png);
+    background-size: cover;
+  }
+  
+  header {
+    display: flex;
+    width: 100%;
+    background-color: #3b5998;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 4%;
+    height: 7vh;
+    padding: 13px;
+  }
+  
+  .links a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    background-color: #5b76ae;
+  }
+  
+  .image {
+    position: absolute;
+    bottom: 285px;
+    right: 100px;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+  }
+  
+  form {
+    width: 35%;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 100px;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .fb-button {
+    color: white;
+    background-color: #3b5998;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    padding: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  
+  .fb-button::before {
+    content: "\f082";
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+    padding: 10px;
+    padding-left: 0;
+  }
+  
+  .t-button {
+    color: white;
+    background-color: rgb(95, 191, 251);
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  
+  .t-button::before {
+    content: "\f099";
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+    padding: 10px;
+    padding-left: 0;
+  }
+  
+  .ft-1 {
+    background-color: rgb(189, 188, 188);
+    margin: 50px auto;
+    border-radius: 50px;
+    display: inline;
+    font-size: 19px;
+    padding: 8px;
+  }
+  
+  .username {
+    margin-top: 30px;
+    padding: 10px;
+    padding-right: 270px;
+    font-size: 18px;
+  }
+  
+  .password {
+    margin-top: 7px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-right: 270px;
+    font-size: 18px;
+  }
+  
+  input:hover {
+    background-color: rgb(232, 232, 232);
+  }
+  
+  label {
+    font-size: 18px;
+    padding-right: 180px;
+  }
+  
+  .flink-1 {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .login {
+    color: white;
+    background-color: #3b5998;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 225px;
+    margin-top: 30px;
+    margin-bottom: 20px;;
+    cursor: pointer;
+  }
+  
+  .ft-2 {
+    display: inline;
+    font-size: 18px;
+    padding-right: 10px;
+  }
+  
+  .flink-2 {
+    font-size: 18px;
+    color: rgb(41, 168, 247);
+    text-decoration: none;
+  }
+  
+  .text {
+    font-size: 20px;
+    color: #2d4578;
+    padding: 30px;
+    padding-left: 870px;
+    padding-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    font-weight: bolder;
+  }
