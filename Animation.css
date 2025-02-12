@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+  
+.letter-box {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background-color: blue;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+  
+.letter-box:hover {
+    transform: scale(1.2) rotate(10deg);
+    background-color: #FF5722;
+}
+  

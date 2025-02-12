@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate the Media</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: green;
+        }
+        .video-container {
+            margin: 20px 0;
+        }
+        .rating-form {
+            margin-top: 20px;
+        }
+        .rating-form input {
+            width: 80%;
+            margin: 10px 0;
+        }
+        .rating-form button {
+            background: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .rating-form button:hover {
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rate the Media</h1>
+        <div class="video-container">
+            <video width="100%" controls>
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <form class="rating-form">
+            <label for="rating">Rate this video (1 to 5):</label>
+            <input type="range" id="rating" name="rating" min="1" max="5" step="1">
+            <button type="submit">Submit Rating</button>
+        </form>
+    </div>
+</body>
+</html>
